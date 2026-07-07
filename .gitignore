@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Reports
+reports/*
+
+# Keep folder
+!reports/.gitkeep
+
+# Logs
+logs/*
+
+# Keep folder
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
